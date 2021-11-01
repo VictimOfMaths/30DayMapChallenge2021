@@ -59,7 +59,7 @@ ggplot(points, aes(geometry=geometry))+
         plot.title=element_text(size=rel(3)),
         plot.subtitle=element_text(size=rel(1.2)),
         plot.caption=element_text(size=rel(1)),
-        plot.caption.position="panel", plot.title.position="panel")+
+        plot.caption.position="plot", plot.title.position="plot")+
   labs(title="Where's the point?",
        subtitle="All the places in Great Britain with Point in the name",
        caption="Data from OS Open Names | Map by @VictimOfMaths\n\nContains Ordnance Survey data © Crown copyright and database right 2020\n")
