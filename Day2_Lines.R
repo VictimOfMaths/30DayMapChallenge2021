@@ -3,13 +3,11 @@ rm(list=ls())
 library(sf)
 library(ragg)
 library(extrafont)
-library(ggfx)
 library(tidyverse)
 library(paletteer)
 
 data1 <- st_read("Data/open-rivers_4241952/oprvrs_gb.gpkg", layer="HydroNode")
 data2 <- st_read("Data/open-rivers_4241952/oprvrs_gb.gpkg", layer="WatercourseLink")
-
 
 mapdata <- data2 %>% 
   filter(!form %in% c("lake", "canal")) %>% 
@@ -24,11 +22,17 @@ mapdata <- data2 %>%
     grepl("Allt", watercourseName)==TRUE ~ "Allt",
     grepl("Nant", watercourseName)==TRUE ~ "Nant",
     grepl("Drain", watercourseName)==TRUE ~ "Drain",
-    
+    grepl("Creek", watercourseName)==TRUE ~ "Creek",
+    grepl("Stell", watercourseName)==TRUE ~ "Stell",
+    grepl("Low", watercourseName)==TRUE ~ "Low",
+    grepl("Stream", watercourseName)==TRUE ~ "Stream",
+    grepl("Fleet", watercourseName)==TRUE ~ "Fleet",
     TRUE ~ NA_character_
   ))
 
-agg_tiff("Day2_Lines.tiff", units="in", width=7.5, height=8, res=800, background="cornsilk")
+table(mapdata$type)
+
+agg_png("Day2_Lines.png", units="in", width=7.5, height=8, res=800, background="cornsilk")
 ggplot(mapdata %>% filter(!is.na(type)), aes(geometry=geom, colour=type, fill=type))+
   geom_sf(size=0.2)+
   theme_void()+
@@ -53,4 +57,42 @@ ggplot(mapdata %>% filter(is.na(type)), aes(geometry=geom))+
   theme_void()+
   xlim(-200000, 900000)+
   ylim(100000,1300000)
+
+agg_png("Day2_Linesv2.png", units="in", width=9, height=8, res=800, background="cornsilk")
+ggplot(mapdata %>% filter(!is.na(type) & !type %in% c("Creek", "Low", "Stell", "Stream", "Fleet")), 
+       aes(geometry=geom, colour=type, fill=type))+
+  geom_sf(size=0.2)+
+  theme_void()+
+  xlim(-200000, 800000)+
+  ylim(50000,1200000)+
+  scale_colour_manual(name="", values=c("#3366cc", "#dc3912", "#ff9900", "#109618", "#990099",
+                                        "#0099c6", "#dd4477", "#66aa00","Grey50", "#b82e2e"))+
+  scale_fill_manual(name="", values=c("#3366cc", "#dc3912", "#ff9900", "#109618", "#990099",
+                                      "#0099c6", "#dd4477", "#66aa00","Grey50", "#b82e2e"))+
+  theme(text=element_text(family="Lobster Two", colour="royalblue4"), plot.title.position="plot",
+        plot.caption.position="plot", plot.title=element_text(face="bold", size=rel(2.4)),
+        plot.background=element_rect(fill="cornsilk", colour="cornsilk"))+
+  facet_wrap(~type)+
+  labs(title="Rivers flow not past, but through us",
+       subtitle="Most common synonyms for 'river' in Great Britain",
+       caption="Data from OS Open Rivers | Plot by @VictimOfMaths\n\nContains Ordnance Survey data © Crown copyright and database right 2020\n")
+
+dev.off()
+
+agg_png("Day2_Linesv3.png", units="in", width=9, height=8, res=800, background="cornsilk")
+ggplot(mapdata %>% filter(!is.na(type) & type %in% c("Creek", "Low", "Stell", "Stream", "Fleet")), 
+       aes(geometry=geom))+
+  geom_sf(size=0.5, colour="Black")+
+  theme_void()+
+  xlim(-200000, 800000)+
+  ylim(50000,1200000)+
+  theme(text=element_text(family="Lobster Two", colour="royalblue4"), plot.title.position="plot",
+        plot.caption.position="plot", plot.title=element_text(face="bold", size=rel(2.4)),
+        plot.background=element_rect(fill="cornsilk", colour="cornsilk"))+
+  facet_wrap(~type)+
+  labs(title="Rivers flow not past, but through us",
+       subtitle="Less common synonyms for 'river' in Great Britain",
+       caption="Data from OS Open Rivers | Plot by @VictimOfMaths\n\nContains Ordnance Survey data © Crown copyright and database right 2020\n")
+
+dev.off()
 
