@@ -5,11 +5,16 @@ Code and submissions for the 30 Day Map Challenge in November 2021
 <br>
 A map of all the places in Great Britain whose names include the word "Point"<br>
 ![Where's the point?](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day1_Points.png)
-Crated in R using Ordnance Survey Open Names data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day1_Points.R)
+Created in R using Ordnance Survey Open Names data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day1_Points.R)
 <br>
 **Day 2: Lines**
 <br>
 Rivers of Great Britain and common synonyms for "river"<br>
 ![Rivers flow not past us, but through us](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day2_Lines.png)
-Crated in R using Ordnance Survey Open Rivers data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day2_Lines.R)
-
+Created in R using Ordnance Survey Open Rivers data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day2_Lines.R)
+**Day 3: Polygons**
+<br>
+The closes English or Scottish Premier League football team to any point in the UK<br>
+![Support your local (Premier League) team](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day3_Polygons.png)
+Created in R using Wikipedia data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day3_Polygons.R)
+<br>
