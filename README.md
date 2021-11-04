@@ -18,3 +18,9 @@ The closes English or Scottish Premier League football team to any point in the 
 ![Support your local (Premier League) team](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day3_Polygons.png)
 Created in R using Wikipedia data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day3_Polygons.R)
 <br>
+**Day 4: Hexagons**
+<br>
+The median age of every neighbourhood in England<br>
+![England's cities are young](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day4_Hexagons.png)
+Created in R using ONS data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day4_Hexagons.R)
+<br>
