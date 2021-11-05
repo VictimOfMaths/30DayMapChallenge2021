@@ -24,3 +24,9 @@ The median age of every neighbourhood in England<br>
 ![England's cities are young](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day4_Hexagons.png)
 Created in R using ONS data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day4_Hexagons.R)
 <br>
+**Day 5: Open Street Map**
+<br>
+The location of every Greggs and Pret a Manger in the UK<br>
+![No escape from the steak bake](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day5_OSM.png)
+Created in R using ONS data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day5_OSM.R)
+<br>
