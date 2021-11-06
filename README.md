@@ -30,3 +30,9 @@ The location of every Greggs and Pret a Manger in the UK<br>
 ![No escape from the steak bake](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day5_OSM.png)
 Created in R using ONS data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day5_OSM.R)
 <br>
+**Day 6: Red**
+<br>
+All of the places in Wales with 'red' in their name<br>
+![Y Ddraig Goch](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day6_Red.png)
+Created in R using ONS data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day6_Red.R)
+<br>
