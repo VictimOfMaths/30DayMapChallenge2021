@@ -29,17 +29,53 @@ Created in R using ONS data (https://github.com/VictimOfMaths/30DayMapChallenge2
 <br>
 The location of every Greggs and Pret a Manger in the UK<br>
 ![No escape from the steak bake](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day5_OSM.png)
-Created in R using ONS data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day5_OSM.R)
+Created in R using Open Streetmap data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day5_OSM.R)
 <br><br>
 **Day 6: Red**
 <br>
 All of the places in Wales with 'red' in their name<br>
 ![Y Ddraig Goch](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day6_Red.png)
-Created in R using ONS data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day6_Red.R)
+Created in R using ONS Open Names data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day6_Red.R)
 <br><br>
 **Day 7: Green**
 <br>
 All of the traffic lights in Sheffield<br>
 ![Pray for green](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day7_Green.png)
-Created in R using ONS data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day7_Green.R)
+Created in R using Open Streetmap data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day7_Green.R)
+<br>
+**Day 8: Blue**
+<br>
+A bathymetric view of Lake Geneva<br>
+![The bottomo of the lake](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day8_Blue.png)
+Created in Aerialod using Swisstopo data.
+<br>
+**Day 9: Monochrome**
+<br>
+The meandering course of the Upper Mouth river near Fort Yukon in Alaska<br>
+![Meanders](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day9_Monochrome.png)
+Created in Aerialod using Alaska DGSS data.
+<br>
+**Day 10: Raster**
+<br>
+Adding a 3rd dimension to an OS 1:25,000 map of East London<br>
+![The Isle of Dogs](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day10_Raster.png)
+Created in Aerialod using Ordnance Survey data
+<br>
+**Day 11: 3D**
+<br>
+A 3D view of the English Lake District<br>
+![Scafell, Eskdale and Hardknott](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day11_3D.png)
+Created in Aerialod using Ordnance Survey data
+<br>
+**Day 12: Population**
+<br>
+A minecrafty visualisation of Facebook's low-level population estimates<br>
+![Yorkshire Minecraft](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day12_Population.png)
+Created in Aerialod using Facebook data
+<br>
+**Day 13: Natural Earth**
+<br>
+Where to find tiny islands across the North of Europe<br>
+![The tiny islands of Northern Europe](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day13_NaturalEarth.png)
+Created in R using Natural Earth data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day13_NaturalEarth.R)
 <br>
