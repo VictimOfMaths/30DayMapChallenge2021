@@ -79,3 +79,9 @@ Where to find tiny islands across the North of Europe<br>
 ![The tiny islands of Northern Europe](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day13_NaturalEarth.png)
 Created in R using Natural Earth data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day13_NaturalEarth.R)
 <br><br>
+**Day 16: Urban/Rural**
+<br>
+What is the most common construction date for houses in every English neigbourhood?<br>
+![Where are the old houses?](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day16_UrbanRural.png)
+Created in R using VOA data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day16_UrbanRural.R)
+<br><br>
