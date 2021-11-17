@@ -91,3 +91,9 @@ What is the most common construction date for houses in every English neigbourho
 ![Where are the old houses?](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day16_UrbanRural.png)
 Created in R using VOA data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day16_UrbanRural.R)
 <br><br>
+**Day 16: Land**
+<br>
+A map of all the countries in the world with 'land' in their names?<br>
+![The Land Islands](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day17_Land.png)
+Created in R using Natural Earth data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day17_Land.R)
+<br><br>
