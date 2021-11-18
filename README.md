@@ -100,7 +100,7 @@ Created in R using Natural Earth data (https://github.com/VictimOfMaths/30DayMap
 **Day 18: Water**
 <br>
 A map of all the bodies of water in Great Britain with a colour in their name<br>
-!Coloured water](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day18_Water.png)
+![Coloured water](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day18_Water.png)
 Created in R using Ordnance SUrvey data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day18_Water.R)
 <br><br>
 
