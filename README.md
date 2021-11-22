@@ -101,6 +101,12 @@ Created in R using Natural Earth data (https://github.com/VictimOfMaths/30DayMap
 <br>
 A map of all the bodies of water in Great Britain with a colour in their name<br>
 ![Coloured water](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day18_Water.png)
-Created in R using Ordnance SUrvey data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day18_Water.R)
+Created in R using Ordnance Survey data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day18_Water.R)
+<br><br>
+**Day 22: Boundaries**
+<br>
+A map showing 30 minute isochrones (maximum travelling distances) by different modes of transport from my house<br>
+![Bounded by an hour](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day22_Boundaries.png)
+Created in R using OpenStreeMap routing data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day22_Boundaries.R)
 <br><br>
 
