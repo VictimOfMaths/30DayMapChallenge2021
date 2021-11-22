@@ -82,7 +82,7 @@ Created in R using Natural Earth data (https://github.com/VictimOfMaths/30DayMap
 **Day 14: Map made with a new tool**
 <br>
 A map of everywhere I have ever lived<br>
-![Where I've laid my hat](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day14_NewTool.PNG)
+![Where I've laid my hat](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day14_NewTool.PNG)<br>
 Created in Datawrapper
 <br><br>
 **Day 16: Urban/Rural**
