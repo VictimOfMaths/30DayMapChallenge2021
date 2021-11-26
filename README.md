@@ -109,4 +109,9 @@ A map showing 30 minute isochrones (maximum travelling distances) by different m
 ![Bounded by an hour](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day22_Boundaries.png)
 Created in R using OpenStreeMap routing data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day22_Boundaries.R)
 <br><br>
-
+**Day 26: Choropleth**
+<br>
+A bivariate map showing mortality rates from alcohol-specific causes and due to drug misuse in UK Local Authorities<br>
+![Alcohol and Drug Deaths](https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day26_Choropleth.png)
+Created in R using ONS, NRS, NISRA & OHID data (https://github.com/VictimOfMaths/30DayMapChallenge2021/blob/main/Day26_Choropleth.R)
+<br><br>
